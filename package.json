@@ -19,7 +19,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged && gpg --sign -n package.json"
+      "pre-commit": "lint-staged"
     }
   },
   "dependencies": {
@@ -34,8 +34,8 @@
     "@nuxt/types": "^2.14.6",
     "@nuxt/typescript-build": "^2.0.3",
     "@nuxtjs/eslint-config": "^5.0.0",
-    "@nuxtjs/eslint-config-typescript": "^3.0.0",
     "@nuxtjs/eslint-module": "^3.0.1",
+    "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@nuxtjs/stylelint-module": "^4.0.0",
     "@vue/test-utils": "^1.1.0",
     "babel-core": "7.0.0-bridge.0",
@@ -48,7 +48,9 @@
     "husky": "^4.3.0",
     "jest": "^26.5.0",
     "lint-staged": "^10.4.0",
+    "node-sass": "^5.0.0",
     "prettier": "^2.1.2",
+    "sass-loader": "^10.1.0",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
