@@ -1,34 +1,41 @@
 <template>
-  <section class="section">
-    <div class="columns is-mobile">
-      <card title="Free" icon="github">
-        Open source on <a href="https://github.com/buefy/buefy"> GitHub </a>
-      </card>
-
-      <card title="Responsive" icon="cellphone-link">
-        <b class="has-text-grey"> Every </b> component is responsive
-      </card>
-
-      <card title="Modern" icon="alert-decagram">
-        Built with <a href="https://vuejs.org/"> Vue.js </a> and
-        <a href="http://bulma.io/"> Bulma </a>
-      </card>
-
-      <card title="Lightweight" icon="arrange-bring-to-front">
-        No other internal dependency
-      </card>
+  <main>
+    <div class="columns">
+      <div class="column">
+        <section class="hero is-link is-bold">
+          <div class="hero-body">
+            <h1 class="title">Welcome to the Garden</h1>
+            <h2 class="subtitle">
+              Tie-dyed and printed shirts as unique as you are.
+            </h2>
+          </div>
+        </section>
+        <article class="content is-medium column">
+          <p class="block">
+            All of our shirts are tie-dyed by hand and silk screen printed to
+            order, so we can send you a combination all your own.
+          </p>
+          <p class="block">
+            Head on over to our Contact page to ask your questions, place your
+            orders, or sign up to receive updates on new designs and limited
+            specialty drops.
+          </p>
+        </article>
+      </div>
+      <div class="column is-one-quarter">
+        <figure class="is-3by5">
+          <img
+            src="~/assets/xt-roadsign.png"
+            alt="Road sign with an alien holding a shovel"
+          />
+        </figure>
+      </div>
     </div>
-  </section>
+  </main>
 </template>
 
 <script>
-import Card from '~/components/Card'
-
 export default {
   name: 'HomePage',
-
-  components: {
-    Card,
-  },
 }
 </script>
