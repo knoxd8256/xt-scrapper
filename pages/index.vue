@@ -1,8 +1,8 @@
 <template>
   <main>
     <div class="columns">
-      <div class="column">
-        <section class="hero is-link is-bold">
+      <div class="column container m-1">
+        <section class="hero is-primary is-bold mb-3">
           <div class="hero-body">
             <h1 class="title">Welcome to the Garden</h1>
             <h2 class="subtitle">
@@ -10,7 +10,9 @@
             </h2>
           </div>
         </section>
-        <article class="content is-medium column">
+        <article
+          class="content has-background-primary-light has-text-primary-dark is-medium column"
+        >
           <p class="block">
             All of our shirts are tie-dyed by hand and silk screen printed to
             order, so we can send you a combination all your own.
@@ -23,7 +25,7 @@
         </article>
       </div>
       <div class="column is-one-quarter">
-        <figure class="is-3by5">
+        <figure class="">
           <img
             src="~/assets/xt-roadsign.png"
             alt="Road sign with an alien holding a shovel"
