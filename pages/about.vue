@@ -1,7 +1,9 @@
 <template>
   <main>
     <section class="section">
-      <article class="container">
+      <article
+        class="container has-background-primary-light has-text-primary-dark has-wood-frame p-2"
+      >
         <h1 class="title pb-2">About the Garden</h1>
         <h2 class="subtitle">
           Who is this Extraterrestrial Gardener, and what is he growing?

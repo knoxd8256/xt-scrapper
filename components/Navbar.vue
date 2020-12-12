@@ -1,10 +1,10 @@
 <template>
   <nav
-    class="navbar has-text-black top-nav"
+    class="navbar has-text-primary-dark top-nav"
     role="navigation"
     aria-label="main navigation"
   >
-    <div class="navbar-brand has-text-weight-bold is-size-3 custom-head">
+    <div class="navbar-brand has-text-weight-bold is-size-3">
       <nuxt-link class="navbar-item" :to="{ name: 'index' }">
         <img
           src="~assets/xt-icon-black.png"
@@ -28,7 +28,7 @@
         <nuxt-link
           v-for="(item, key) of items"
           :key="key"
-          class="navbar-item has-text-weight-semibold is-size-4 custom-head"
+          class="navbar-item has-text-weight-semibold is-size-4"
           :to="item.to"
           >{{ item.title }}</nuxt-link
         >
@@ -40,20 +40,15 @@
 <style lang="scss">
 @import '~assets/xt.scss';
 nav.top-nav {
-  background: url('~assets/medium-wood-plank.jpg');
+  background: url('~assets/tree-rings.jpg');
   background-blend-mode: luminosity;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: $cafe-au-lait;
-}
-.custom-head {
-  text-shadow: white 0 0 2px;
+  background-color: $umber;
 }
 .custom-icon {
   border-radius: 15%;
 }
-@import '~bulma';
-@import '~buefy/src/scss/buefy';
 </style>
 
 <script>

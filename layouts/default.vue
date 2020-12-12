@@ -33,7 +33,4 @@ footer {
   padding-top: 1em;
   padding-bottom: 0.3em;
 }
-
-@import '~bulma';
-@import '~buefy/src/scss/buefy';
 </style>

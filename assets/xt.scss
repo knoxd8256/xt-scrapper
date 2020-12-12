@@ -2,6 +2,15 @@ $eggshell: #f0ead2;
 $spring-bud: #dde5b6;
 $middle-green: #adc178;
 $cafe-au-lait: #a98467;
+$kombu-green: #353d2f;
 $umber: #6c584c;
 $primary: $middle-green;
-$link: $cafe-au-lait;
+$link: $kombu-green;
+$grey-dark: #171a15;
+
+.has-wood-frame {
+    border: 10px solid transparent;
+    border-image: url('~assets/wood-frame-1.png') 50 50 stretch;
+}
+@import '~bulma';
+@import '~buefy/src/scss/buefy';

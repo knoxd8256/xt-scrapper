@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="section">
+    <section class="section hero is-primary">
       <article class="container">
         <h1 class="title">Contact the team!</h1>
         <p class="block">
@@ -10,7 +10,9 @@
         </p>
       </article>
     </section>
-    <section class="section">
+    <section
+      class="section content has-background-primary-light has-text-primary-dark m-2"
+    >
       <form class="container" @submit.prevent>
         <b-field label="Name">
           <b-input v-model="name"></b-input>
