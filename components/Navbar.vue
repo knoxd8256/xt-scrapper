@@ -40,11 +40,11 @@
 <style lang="scss">
 @import '~assets/xt.scss';
 nav.top-nav {
-  background: url('~assets/tree-rings.jpg');
-  background-blend-mode: luminosity;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: $umber;
+  // background: url('~assets/tree-rings.jpg');
+  // background-blend-mode: luminosity;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  background-color: $primary;
 }
 .custom-icon {
   border-radius: 15%;

@@ -10,7 +10,10 @@ $grey-dark: #171a15;
 
 .has-wood-frame {
     border: 10px solid transparent;
+    // background-color: $cafe-au-lait;
     border-image: url('~assets/wood-frame-1.png') 50 50 stretch;
+    // background-image: url('~assets/paper-background.jpg');
+    // background-blend-mode: luminosity;
 }
 @import '~bulma';
 @import '~buefy/src/scss/buefy';
