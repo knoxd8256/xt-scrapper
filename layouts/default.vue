@@ -6,7 +6,7 @@
     </div>
     <footer class="">
       <p class="has-text-centered has-text-light">
-        Made with &hearts; by David Knox &copy; 2020
+        Made with &hearts; by David Knox &copy; 2021
       </p>
     </footer>
   </div>

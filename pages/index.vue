@@ -2,7 +2,7 @@
   <main>
     <div class="columns">
       <div class="column container m-1">
-        <section class="hero is-primary mb-3">
+        <section class="hero is-link mb-3">
           <div class="hero-body">
             <h1 class="title">Welcome to the Garden</h1>
             <h2 class="subtitle">
