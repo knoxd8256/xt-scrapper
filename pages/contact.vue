@@ -69,7 +69,7 @@ export default {
       if (this.name && this.email && this.message) {
         const token = await this.$recaptcha.execute('contact')
         this.$axios
-          .post('/api/contact', {
+          .post('https://extraterrestrialgardener.com/api/contact', {
             name: this.name,
             email: this.email,
             message: this.message,

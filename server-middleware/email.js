@@ -3,12 +3,14 @@ const bodyParser = require('body-parser')
 const app = require('express')()
 const sgMail = require('@sendgrid/mail')
 const axios = require('axios').default
+const cors = require('cors')
 
 // Sendgrid setup
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 const recapKey = process.env.RECAPTCHA_API_KEY
 
 app.use(bodyParser.json())
+app.use(cors())
 app.post('/contact', async (req, res) => {
   const bodyData = await req.body
   let data
