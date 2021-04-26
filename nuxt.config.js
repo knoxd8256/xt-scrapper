@@ -31,8 +31,16 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
+    '@nuxtjs/recaptcha',
+    '@nuxtjs/axios',
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+  serverMiddleware: [{ path: 'api', handler: '~/server-middleware/email.js' }],
+  recaptcha: {
+    hideBadge: false,
+    siteKey: '6LflvjoaAAAAAOMHHqMWyKVnDu1V1HNgfbNqXk1w',
+    version: 3,
+  },
 }

@@ -1,15 +1,21 @@
 <template>
   <main>
-    <section class="section">
+    <section class="section hero is-link">
       <article class="container">
-        <h1 class="title pb-2">About the Garden</h1>
-        <h2 class="subtitle">
-          Who is this Extraterrestrial Gardener, and what is he growing?
-        </h2>
+        <h1 class="title">About the Garden</h1>
         <p class="block">
           Whether you've followed a friendly link here or are a longtime fan of
           John's work, welcome!
         </p>
+      </article>
+    </section>
+    <section class="section">
+      <article
+        class="container has-background-primary-light has-text-primary-dark has-wood-frame p-2"
+      >
+        <h2 class="subtitle">
+          Who is this Extraterrestrial Gardener, and what is he growing?
+        </h2>
         <p class="block">
           John has been noodling colors onto, well, everything since he was a
           small child. His fascination with color and texture, nature and
