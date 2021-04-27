@@ -14,7 +14,7 @@
       </nuxt-link>
 
       <nuxt-link class="navbar-item" :to="{ name: 'index' }">
-        <span class="">Extraterrestrial Garden</span>
+        <span class="">Extraterrestrial Gardener</span>
       </nuxt-link>
 
       <div class="navbar-burger" @click="burgerActive = !burgerActive">
@@ -66,6 +66,11 @@ export default {
           title: 'About',
           icon: 'lightbulb',
           to: { name: 'about' },
+        },
+        {
+          title: 'Gallery',
+          icon: 'pencil',
+          to: { name: 'gallery' },
         },
         {
           title: 'Contact',
